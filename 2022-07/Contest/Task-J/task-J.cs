@@ -13,7 +13,7 @@ public class Program
     {
         reader = Console.In;
         writer = Console.Out;
-        
+
         SolveTheTask();
     }
 

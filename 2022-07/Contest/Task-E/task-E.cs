@@ -11,7 +11,7 @@ public class Program
     {
         reader = Console.In;
         writer = Console.Out;
-        
+
         int n = int.Parse(reader.ReadLine());
         for (int i = 0; i < n; i++)
         {
@@ -38,7 +38,7 @@ public class Program
                 writer.WriteLine("NO");
                 return;
             }
-            
+
             tasks.Add(value);
             prev = value;
         }

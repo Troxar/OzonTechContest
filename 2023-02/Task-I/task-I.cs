@@ -86,7 +86,7 @@ namespace ContestConsoleApp
         {
             var sb = new StringBuilder();
             int count = _reader.ReadInt();
-            
+
             for (int i = 0; i < count; i++)
                 sb.Append(_reader.ReadLine());
 

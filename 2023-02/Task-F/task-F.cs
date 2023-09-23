@@ -74,7 +74,7 @@ namespace ContestConsoleApp
             var portions = new List<string>();
             var left = 0;
             var right = 0;
-            
+
             for (int i = 0; i < state.Length; i++)
             {
                 bool printed = state[i];

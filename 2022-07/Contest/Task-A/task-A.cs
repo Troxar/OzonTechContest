@@ -8,7 +8,7 @@ public class Program
     public static void Main()
     {
         writer = Console.Out;
-        
+
         SolveTheTask();
     }
 

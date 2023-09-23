@@ -57,7 +57,7 @@ namespace ContestConsoleApp
             var esEndings = new[] { 's', 'z', 'x' };
             if (esEndings.Contains(last1))
                 return word + "es";
-            
+
             return word + "s";
         }
 

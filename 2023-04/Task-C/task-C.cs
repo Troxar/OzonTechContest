@@ -69,7 +69,7 @@ namespace ContestConsoleApp
     {
         internal int Id;
         internal Node Parent;
-        
+
         public override int GetHashCode()
         {
             return Id;
@@ -77,7 +77,7 @@ namespace ContestConsoleApp
 
         public override bool Equals(object? obj)
         {
-            return obj is Node node 
+            return obj is Node node
                 && node.GetHashCode() == GetHashCode();
         }
     }

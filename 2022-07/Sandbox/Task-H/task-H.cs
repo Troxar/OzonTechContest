@@ -19,7 +19,7 @@ public class Program
     {
         reader = Console.In;
         writer = Console.Out;
-        
+
         int n = int.Parse(reader.ReadLine());
         for (int i = 0; i < n; i++)
         {
@@ -37,7 +37,7 @@ public class Program
         Field field = new Field(n, m);
 
         List<int> result = new();
-        
+
         foreach (Pattern pattern in PATTERNS)
         {
             int count = field.ApplyPattern(pattern);
@@ -146,7 +146,7 @@ public class Program
                 {
                     if (pattern.Array[y, x] == OPTIONAL)
                         continue;
-                    
+
                     Array[Y + y, X + x] = EMPTY;
                 }
             }
